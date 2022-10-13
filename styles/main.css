@@ -1,0 +1,17 @@
+.clock-container {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.digit {
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background: whitesmoke;
+}
+
+.separator {
+  color: white;
+}
