@@ -1,0 +1,13 @@
+@media screen and (max-width: 640px) {
+  main {
+    padding: 0 30px;
+  }
+
+  .menu-nav {
+    display: none;
+  }
+
+  .mobile-icon {
+    display: block;
+  }
+}

@@ -3,14 +3,24 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  color: black;
-  font-size: 1.4em;
+  color: white;
   font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
   text-decoration: none;
 }
 
 body {
+  width: 100%;
+  height: 100vh;
   background-color: #212121;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  background-color: #000;
 }
 
 main {
@@ -19,4 +29,19 @@ main {
   align-items: stretch;
   align-content: center;
   height: 100vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 18px;
+  text-align: center;
+  background-color: #000;
+}
+
+a:hover {
+  color: crimson;
+  transition: 0.25s;
 }
